@@ -25,6 +25,9 @@ aPackageInfo = [
 		"README.md"
 		],
 	:ringfolderfiles = [
+		"bin/libeay32.dll",
+		"bin/ring_openssl.dll",
+		"bin/ssleay32.dll",
 		"extensions/ringopenssl/buildclang.sh",
 		"extensions/ringopenssl/buildgcc.sh",
 		"extensions/ringopenssl/buildvc.bat",
@@ -32,7 +35,8 @@ aPackageInfo = [
 		"extensions/ringopenssl/encrypt_v2.c",
 		"extensions/ringopenssl/openssllib.ring",
 		"extensions/ringopenssl/ring_vmopenssl.c",
-		"extensions/ringopenssl/ring_vmopenssl.h"
+		"extensions/ringopenssl/ring_vmopenssl.h",
+		"ring2exe/libs/openssl.ring"
 	],
 	:windowsfiles = 	[
 
