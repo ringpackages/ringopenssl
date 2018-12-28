@@ -25,6 +25,7 @@ aPackageInfo = [
 		"README.md"
 		],
 	:ringfolderfiles = [
+		"bin/openssllib.ring",
 		"bin/libeay32.dll",
 		"bin/ring_openssl.dll",
 		"bin/ssleay32.dll",
