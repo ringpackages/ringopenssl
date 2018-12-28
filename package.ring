@@ -26,9 +26,6 @@ aPackageInfo = [
 		],
 	:ringfolderfiles = [
 		"bin/openssllib.ring",
-		"bin/libeay32.dll",
-		"bin/ring_openssl.dll",
-		"bin/ssleay32.dll",
 		"extensions/ringopenssl/buildclang.sh",
 		"extensions/ringopenssl/buildgcc.sh",
 		"extensions/ringopenssl/buildvc.bat",
@@ -40,7 +37,9 @@ aPackageInfo = [
 		"ring2exe/libs/openssl.ring"
 	],
 	:windowsfiles = 	[
-
+		"bin/libeay32.dll",
+		"bin/ring_openssl.dll",
+		"bin/ssleay32.dll"
 	],
 	:linuxfiles = 	[
 
