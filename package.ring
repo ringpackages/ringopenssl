@@ -36,7 +36,7 @@ aPackageInfo = [
 		"extensions/ringopenssl/ring_vmopenssl.h",
 		"ring2exe/libs/openssl.ring"
 	],
-	:windowsfiles = 	[
+	:windowsringfolderfiles = 	[
 		"bin/libeay32.dll",
 		"bin/ring_openssl.dll",
 		"bin/ssleay32.dll"
